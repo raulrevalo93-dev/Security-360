@@ -1,6 +1,6 @@
 {
   "name": "Security 360",
-  "description": "Sitio web oficial de Security 360 - Especialistas en seguridad, domótica e instalación de antenas Starlink.",
+  "description": "Sitio web oficial de Security 360 - Especialistas en instalación de cámaras de seguridad y sistemas de vigilancia en Salta, Argentina.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

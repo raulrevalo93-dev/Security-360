@@ -38,7 +38,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg text-blue-100/70 mb-8 max-w-xl leading-relaxed">
-            Especialistas en instalación de cámaras de seguridad, sistemas de alarma monitoreada ADT y conectividad global con Starlink.
+            Especialistas en instalación de cámaras de seguridad en la provincia de Salta, sistemas de alarma monitoreada ADT y conectividad global con Starlink.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">

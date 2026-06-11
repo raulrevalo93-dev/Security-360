@@ -57,7 +57,7 @@ export function ADTSection() {
             Cotización Rápida
           </motion.a>
           <motion.a
-            href="https://wa.me/"
+            href="https://wa.me/5493874767636"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-blue-900/30 hover:bg-blue-900/50 text-white border border-blue-400/30 h-12 px-6 rounded-xl font-medium"

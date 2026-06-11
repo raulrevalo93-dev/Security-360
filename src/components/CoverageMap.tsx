@@ -10,7 +10,7 @@ export function CoverageMap() {
           <div className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.6)]"></div>
           <span className="text-xs font-bold uppercase tracking-wider text-green-400">Operativo Ahora</span>
         </div>
-        <p className="text-sm text-slate-400 font-medium">Servicio en toda la zona y alrededores. Instalación rápida garantizada.</p>
+        <p className="text-sm text-slate-400 font-medium">Servicio en toda la provincia de Salta y alrededores. Instalación rápida garantizada.</p>
       </div>
 
       <div className="w-full flex-grow rounded-2xl overflow-hidden relative border border-slate-800 bg-slate-950 isolate">
