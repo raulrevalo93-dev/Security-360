@@ -13,7 +13,7 @@ export function ContactForm() {
     const formData = new FormData(e.currentTarget);
     
     try {
-      await fetch("https://formsubmit.co/ajax/securitycam360@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/seguridad.arg.360@mail.com", {
         method: "POST",
         headers: { 
             "Content-Type": "application/json",
@@ -66,8 +66,8 @@ export function ContactForm() {
                 <div>
                   <h4 className="font-bold text-white text-lg">Correo Electrónico</h4>
                   <p className="text-slate-400 mt-1">Envianos un detalle de tu consulta.</p>
-                  <a href="mailto:securitycam360@gmail.com" className="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-1 block">
-                    securitycam360@gmail.com
+                  <a href="mailto:seguridad.arg.360@mail.com" className="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-1 block">
+                    seguridad.arg.360@mail.com
                   </a>
                 </div>
               </div>

@@ -29,10 +29,10 @@ export function Header() {
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 100, damping: 20 }}
       className={cn(
-        "sticky top-2 sm:top-4 z-50 transition-all duration-300 w-full rounded-2xl md:rounded-[2rem] flex flex-col",
+        "fixed z-50 transition-all duration-300 w-[calc(100%-1rem)] sm:w-[calc(100%-2rem)] max-w-[1280px] left-1/2 -translate-x-1/2 flex flex-col",
         isScrolled
-          ? "bg-slate-900/80 backdrop-blur-md border border-slate-800 shadow-sm p-4"
-          : "bg-slate-900/50 border border-slate-800 p-4"
+          ? "top-0 sm:top-0 bg-slate-950/20 backdrop-blur-md border border-slate-800/30 shadow-lg shadow-black/10 p-3 sm:p-4 rounded-b-2xl md:rounded-b-[2rem]"
+          : "top-2 sm:top-4 bg-slate-900 border border-slate-800 p-4 rounded-2xl md:rounded-[2rem]"
       )}
     >
       <div className="w-full">

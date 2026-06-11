@@ -14,10 +14,10 @@ import { WhatsAppButton } from "./components/WhatsAppButton";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-blue-500/30 p-2 sm:p-4 flex flex-col items-center overflow-x-hidden">
-      <div className="w-full max-w-[1280px] flex flex-col gap-4">
+    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-blue-500/30 p-2 sm:p-4 flex flex-col items-center overflow-clip">
+      <div className="w-full max-w-[1280px] flex flex-col gap-4 relative">
         <Header />
-        <main className="flex flex-col gap-4">
+        <main className="flex flex-col gap-4 mt-24">
           <Hero />
           <Services />
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
